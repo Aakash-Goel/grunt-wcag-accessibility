@@ -1,5 +1,6 @@
 Grunt WCAG Accessibility
 ===================
+https://www.npmjs.com/package/grunt-wcag-accessibility
 
 Uses [AccessSniff](https://github.com/yargalot/AccessSniff) and [HTML Codesniffer](http://github.com/squizlabs/HTML_CodeSniffer) to grade your site's accessibility using different levels of the WCAG guidelines.
 
