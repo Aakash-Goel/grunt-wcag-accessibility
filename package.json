@@ -1,0 +1,44 @@
+{
+  "name": "grunt-wcag-accessibility",
+  "description": "Grade your site's accessibility and generate a report from different WCAG levels",
+  "version": "0.1.6",
+  "homepage": "https://github.com/vikas-kumar-singh/grunt-wcag-accessibility",
+  "author": "Vikas Kumar Singh",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikas-kumar-singh/grunt-wcag-accessibility.git"
+  },
+  "license": "MIT",
+  "main": "tasks/grunt-wcag-accessibility.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "access-sniff": "^2.3.0",
+    "handlebars": "^3.0.3",
+    "install": "^0.8.1",
+    "npm": "^3.9.5"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "load-grunt-tasks": "^3.1.0",
+    "time-grunt": "^1.0.0"
+  },
+  "peerDependencies": {
+    "grunt": ">=0.4.5"
+  },
+  "keywords": [
+    "gruntplugin",
+    "accessibility",
+    "a11y",
+    "analysis",
+    "report",
+    "WCAG"
+  ],
+  "files": [
+    "tasks"
+  ]
+}
